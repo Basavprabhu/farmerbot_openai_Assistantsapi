@@ -1,6 +1,9 @@
 import openai
 import time
 import streamlit as st
+import streamlit.secrets as secrets
+
+openai.api_key = secrets["OPENAI_API_KEY"]
 
 
 
